@@ -1,0 +1,15 @@
+.hero-card{
+    background-color: rgb(73, 72, 72);
+    max-width: 61%;
+    margin-left: 1px !important;
+    padding: 10px;
+    /* border-end-start-radius: 10px; */
+    border-bottom-left-radius:20px ;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+/* .hero-cardimg img{
+width: fit-content;
+} */

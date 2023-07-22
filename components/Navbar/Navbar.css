@@ -1,0 +1,59 @@
+/* Common styles */
+.heading1 {
+    color: white;
+}
+
+.nav-item ul li {
+    display: inline;
+}
+
+.nav-item ul li a {
+    margin: 8px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+#menu-toggle{
+    display: none;
+}
+
+.toggle-button{
+    display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .menu-list {
+        display: none; /* Hide the menu on small screens */
+    }
+    .navbtn{
+        display: none;
+    }
+
+    .toggle-checkbox {
+        display: none; /* Hide the checkbox */
+    }
+
+    .toggle-button {
+        display: block; /* Show the toggle button on small screens */
+        background: none;
+        border: none;
+        font-size: 18px;
+        color: white;
+        cursor: pointer;
+    }
+   
+
+    /* Show the menu when the checkbox is checked */
+    .toggle-checkbox:checked ~ .nav-item .menu-list {
+        display: block;
+    }
+    .toggle-checkbox:checked ~ .btns a{
+        display: block;
+        
+    }
+    .navbar-top{
+        display: flex;
+        justify-content: space-between;
+    }
+}

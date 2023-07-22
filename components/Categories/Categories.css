@@ -1,0 +1,24 @@
+.categories-area {
+    margin-top: 5rem;
+    /* margin-bottom: 1rem; */
+}
+
+.category-detail {
+    background-color: rgb(75, 74, 74);
+    border-radius: 27px;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+
+
+}
+
+.category-detail img {
+    width: 100%;
+    text-align: center;
+}
+
+.category-detail p {
+    margin: 13px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}

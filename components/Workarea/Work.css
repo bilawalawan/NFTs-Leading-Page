@@ -1,0 +1,17 @@
+.area-detail{
+    background-color: rgb(70, 69, 69);
+  padding: 12px;
+  border-radius: 24px;
+}
+
+.mashroome img{
+    width: 100%;
+    /* margin-top: 13rem; */
+}
+
+/* @media  screen and (max-width: 576px) {
+    .deep{
+        display: flex !important;
+        color: black;
+    }
+} */

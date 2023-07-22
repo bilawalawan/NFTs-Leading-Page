@@ -1,0 +1,19 @@
+
+.btns a{
+    color: white;
+    background-color: rgb(155, 2, 155);
+    /* padding: 10px; */
+    max-width: 100% !important;
+   
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    .btns a{
+        display: none;
+      max-width: 100% !important;
+      padding: 4px !important;
+    }
+}
